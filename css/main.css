@@ -22,15 +22,19 @@ html {
   width: 4rem;
 }
 
-h1 {
+h1,
+h2 {
   color: #fff;
 }
 
-.preview-img .unit {
+.img {
   height: 100vh;
-  background: url("https://pics.me.me/graphic-design-is-my-passion-11891063.png") center center / cover no-repeat;
 }
 
 .phrase {
   color: #ff0000;
+}
+
+.index-card {
+  background-color:#03030a;
 }
