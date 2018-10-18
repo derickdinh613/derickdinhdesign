@@ -41,7 +41,7 @@ h2 {
 }
 
 .index-card img {
-  transition: transform 1s;
+  transition: transform .5s;
 }
 
 .preview-overlay {
