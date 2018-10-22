@@ -11,7 +11,7 @@ html {
 }
 
 .banner {
-  background-image: url("../images/nocturnal-banner.jpg");
+  background: url("../images/nocturnal-banner.jpg") center / cover no-repeat;
 }
 
 .nav-logo {
@@ -88,4 +88,28 @@ h2 {
 
 .nav-check:checked ~ .nav-label {
   background-color: grey;
+}
+
+.nav {
+  position: absolute;
+  right: 0;
+}
+
+.nav a {
+  background-color: red;
+  color: #fff;
+}
+
+.nav a:hover {
+  background-color: white;
+  color: red;
+}
+
+.logo-grid img {
+  max-width: 15rem;
+  display: inline-block;
+}
+
+.logo-grid .unit:nth-child(odd) {
+  text-align: center;
 }
