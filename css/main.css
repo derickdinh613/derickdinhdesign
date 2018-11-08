@@ -3,6 +3,10 @@ html {
   color: #ff0000;
 }
 
+main {
+  overflow-x: hidden;
+}
+
 .center {
   display: block;
   margin-left: auto;
@@ -12,6 +16,14 @@ html {
 
 .banner {
   background: url("../images/nocturnal-banner.jpg") center / cover no-repeat;
+}
+
+.banner-illustration {
+  background: url("../images/illustration-banner.jpg") center / cover no-repeat;
+}
+
+.banner-logos {
+  background: url("../images/logo-banner.jpg") center / cover no-repeat;
 }
 
 .nav-logo {
@@ -142,3 +154,23 @@ h2 {
   background-color: #FFC97B;
   color: #fff;
 }
+
+.examples-illustrations .unit:nth-child(even) {
+  background-color: #3B5998;
+}
+
+.examples-illustrations .unit:nth-child(even)::after {
+  background-color: #3B5998;
+}
+
+.examples-logos .unit:nth-child(even) {
+  background-color: #000;
+}
+
+.examples-logos .unit:nth-child(even)::after {
+  background-color: #000;
+}
+
+.bg-blue {
+  background-color: #3B5998;
+  color: #fff;
