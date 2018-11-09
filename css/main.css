@@ -1,15 +1,26 @@
 html {
-  font-family: 'Luckiest Guy', cursive;
+  font-family: cubano, sans-serif;
+  font-weight: 400;
+  font-style: normal;
   color: #ff0000;
 }
 
-main {
+p {
+  font-family: Open Sans, sans-serif;
+}
+
+body {
   overflow-x: hidden;
 }
 
+.icon-list a {
+  color: #fff;
+}
+
 footer {
-  background-color: #ff0000;
+  background-color: #333;
   color: #ffff;
+  text-align: center;
 }
 
 .center {
@@ -179,3 +190,16 @@ h2 {
 .bg-blue {
   background-color: #3B5998;
   color: #fff;
+}
+
+@media only screen and (min-width: 38em) {
+
+  footer {
+    text-align: left;
+  }
+
+  .icon-list {
+    text-align: right;
+  }
+
+}
