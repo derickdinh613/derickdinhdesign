@@ -88,8 +88,7 @@ h2 {
 }
 
 .preview-overlay + h2 {
-  /* background-color: #f00; */
-  text-shadow: 0px 0px 10px rgba(0, 0, 0, 2);
+  text-shadow: 0px 0px 10px rgba(0, 0, 0, 1);
 }
 
 .preview-overlay-white {
