@@ -239,6 +239,13 @@ h2 {
 
 }
 
+@media only screen and (min-width: 25em) {
+
+  .logo-head {
+    max-width:100%;
+
+}
+
 .noct-2016 {
   width:400px;
   height: auto;
