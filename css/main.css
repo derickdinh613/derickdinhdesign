@@ -247,8 +247,7 @@ h2 {
 }
 
 .noct-2016 {
-  width:400px;
-  height: auto;
+  max-width:100%;
 }
 
 .email-colour {
