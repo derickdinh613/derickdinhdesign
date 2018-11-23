@@ -71,6 +71,10 @@ h2 {
   color: #ff0000;
 }
 
+.logo-head {
+  max-width: 100%;
+}
+
 .index-card {
   background-color:#03030a;
   overflow: hidden;
@@ -247,7 +251,7 @@ h2 {
 }
 
 .noct-2016 {
-  max-width:100%;
+  max-width:90%;
 }
 
 .email-colour {
