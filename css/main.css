@@ -2,7 +2,7 @@ html {
   font-family: cubano, sans-serif;
   font-weight: 400;
   font-style: normal;
-  color: #ff0000;
+  color: #f95353;
 }
 
 p {
@@ -68,7 +68,7 @@ h2 {
 }
 
 .phrase {
-  color: #ff0000;
+  color: #f95353;
 }
 
 .logo-head {
@@ -255,5 +255,5 @@ h2 {
 }
 
 .email-colour {
-  color:#ff0000;
+  color:#f95353;
 }
