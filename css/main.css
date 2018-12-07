@@ -5,6 +5,11 @@ html {
   color: #f95353;
 }
 
+.broken {
+  color:#fff;
+  background-color: #f95353;
+}
+
 p {
   font-family: Open Sans, sans-serif;
 }
