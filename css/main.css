@@ -206,7 +206,7 @@ h2 {
 }
 
 .bg-black {
-  background-color: #000;
+  background-color: #333;
   color: #fff;
 }
 
@@ -219,11 +219,11 @@ h2 {
 }
 
 .examples-logos .unit:nth-child(even) {
-  background-color: #000;
+  background-color: #333;
 }
 
 .examples-logos .unit:nth-child(even)::after {
-  background-color: #000;
+  background-color: #333;
 }
 
 .bg-blue {
